@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Red  Headphones",
+      "price": 109.99,
+      "category": "Electronics",
+      "stock": 45,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "description": "High-quality wireless headphones with active noise cancellation and 40-hour battery life."
+    },
+    {
+      "id": 2,
+      "name": " Fitness Tracker",
+      "price": 49.50,
+      "category": "Wearables",
+      "stock": 120,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6",
+      "description": "Track your daily steps, heart rate, and sleep quality with this sleek fitness band."
+    },
+    {
+      "id": 3,
+      "name": "Electrical Mechanical Keyboard",
+      "price": 129.00,
+      "category": "Computer Accessories",
+      "stock": 30,
+      "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae",
+      "description": "RGB backlit mechanical keyboard with blue switches for a satisfying typing experience."
+    },
+    {
+      "id": 4,
+      "name": "8K Ultra HD Action Camera",
+      "price": 85.99,
+      "category": "Cameras",
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32",
+      "description": "Waterproof action camera capable of recording 4K video at 60fps, perfect for sports."
+    },
+    {
+      "id": 5,
+      "name": "Portable Power Bank 20000mAh",
+      "price": 35.00,
+      "category": "Accessories",
+      "stock": 200,
+      "image": "https://images.unsplash.com/photo-1706275399494-fb26bbc5da63",
+      "description": "Fast-charging power bank with dual USB ports to keep your devices powered on the go."
+    }
+  ]
+}
