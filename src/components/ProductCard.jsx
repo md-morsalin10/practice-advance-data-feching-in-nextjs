@@ -1,9 +1,10 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const ProductCard = ({product}) => {
     // console.log(product);
-    const {image,name,price,description} =product
+    const {id,image,name,price,description} =product
     
     return (
         <div className="card bg-base-100 shadow-sm">
@@ -22,8 +23,9 @@ const ProductCard = ({product}) => {
     </h2>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
+      <Link href={`products/${id}`}>
+       <button className='btn btn-primary'>Show Details</button>
+      </Link>
     </div>
   </div>
 </div>
